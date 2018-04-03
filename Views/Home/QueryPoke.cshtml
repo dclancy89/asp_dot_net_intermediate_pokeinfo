@@ -1,0 +1,13 @@
+@{
+    // foreach(var entry in ViewBag.PokeInfo)
+    // {
+    //     <p>@entry.Key - @entry.Value</p>
+    // }
+}
+
+<p>Name - @ViewBag.Name</p>
+@foreach(var entry in @ViewBag.PrimaryType)
+{
+    <p>@entry.Value</p>
+}
+ 
